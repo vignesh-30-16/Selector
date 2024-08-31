@@ -1,0 +1,65 @@
+*{
+   background-color:#6C946F;
+}
+
+h1{
+    color: blueviolet;
+}
+
+h2{
+    color: red ;
+}
+
+.unorder h3{
+    color: blue;
+}
+.first>h4 {
+color: brown;
+}
+.second h4{
+    color: rgb(231, 218, 35);
+}
+
+.four h4{
+    color: crimson;
+}
+.second .one{
+    color: rgb(62, 206, 69);
+}
+.one~.two{
+    color: crimson;
+}
+.two+.three{
+    color: cornflowerblue;
+}
+.three~.half{
+    color: yellowgreen;
+}
+
+.dummy .tree{
+    color: blue;
+}
+
+.tree~.leaf{
+    color: turquoise;
+}
+
+.second .blue{
+    color: violet;
+}
+.second .red{
+    color: tomato;
+}
+
+.group .green{
+    color: thistle;
+}
+#range .yellow{
+    color: teal;
+}
+.yellow+.bold{
+    color:tan;
+}
+#batch .main{
+    color: springgreen;
+}
